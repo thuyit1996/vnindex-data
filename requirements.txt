@@ -5,3 +5,4 @@ uvicorn==0.20.0
 pydantic~=1.10.4
 vnstock~=1.0.2
 request~=2.25.1
+flask=2.3.1

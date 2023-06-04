@@ -1,4 +1,5 @@
-from requests
+# from requests
+from flask import request
 from fastapi import FastAPI
 from src.dtos.ISayHelloDto import ISayHelloDto
 
@@ -29,7 +30,7 @@ headers = {
 async def root():
     url = f"https://fiin-market.ssi.com.vn/MarketInDepth/GetIndexSeries?language=vi&ComGroupCode=VNINDEX&TimeRange=OneYear&id=1"
     payload={}
-    response = requests.request("GET", url, headers=headers, data=payload)
+    response =  request("GET", url, headers=headers, data=payload)
     return response.json()
 
 
