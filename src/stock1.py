@@ -408,6 +408,7 @@ def get_index_series(index_code='VNINDEX', time_range='OneYear', headers=headers
     url = f"https://fiin-market.ssi.com.vn/MarketInDepth/GetIndexSeries?language=vi&ComGroupCode={index_code}&TimeRange={time_range}&id=1"
     payload={}
     response = requests.request("GET", url, headers=headers, data=payload)
+    print(response.status_code)
     result = json_normalize(response.json()['items'])
     return result
 
