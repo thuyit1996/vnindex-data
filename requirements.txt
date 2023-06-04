@@ -1,5 +1,4 @@
 anyio==3.7.0
-apturl==0.5.2
 bcrypt==3.2.0
 blinker==1.6.2
 Brlapi==0.8.3
@@ -14,7 +13,6 @@ dbus-python==1.2.18
 defer==1.0.6
 distlib==0.3.6
 distro==1.7.0
-distro-info===1.1build1
 duplicity==0.8.21
 exceptiongroup==1.1.1
 fastapi==0.96.0
@@ -22,7 +20,6 @@ fasteners==0.14.1
 filelock==3.12.0
 Flask==2.3.2
 future==0.18.2
-gpg===1.16.0-unknown
 gunicorn==20.1.0
 gyp==0.1
 h11==0.14.0
