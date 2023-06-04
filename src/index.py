@@ -1,7 +1,7 @@
 # from requests
 # from flask import request
 import requests
-from vnstock import *
+from src.stock1 import *
 from fastapi import FastAPI
 from src.dtos.ISayHelloDto import ISayHelloDto
 
@@ -32,10 +32,11 @@ headers = {
 
 @app.get("/get-vnindex")
 async def root():
-    url = "https://fiin-market.ssi.com.vn/MarketInDepth/GetIndexSeries?language=vi&ComGroupCode=VNINDEX&TimeRange=OneYear&id=1"
-    response = requests.get(url, headers=headers)
-    print(response.status_code)
-    return 1;
+    # url = "https://fiin-market.ssi.com.vn/MarketInDepth/GetIndexSeries?language=vi&ComGroupCode=VNINDEX&TimeRange=OneYear&id=1"
+    # response = requests.get(url, headers=headers)
+    # print(response.status_code)
+    print(get_index_series())
+    return 1
 
 
 @app.get("/hello/{name}")
