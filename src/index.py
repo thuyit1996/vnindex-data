@@ -29,9 +29,11 @@ headers = {
 
 @app.get("/")
 async def root():
-    url = "https://fiin-market.ssi.com.vn/MarketInDepth/GetIndexSeries?language=vi&ComGroupCode=VNINDEX&TimeRange=OneYear&id=1"
-    response = requests.get(url, headers=headers)
-    return response
+    # url = "https://fiin-market.ssi.com.vn/MarketInDepth/GetIndexSeries?language=vi&ComGroupCode=VNINDEX&TimeRange=OneYear&id=1"
+    # response = requests.get(url, headers=headers)
+    return {
+        "name": "123"
+    }
 
 
 @app.get("/hello/{name}")
