@@ -3,7 +3,7 @@ pytest==7.1.3
 pytest-asyncio==0.20.3
 uvicorn==0.20.0
 pydantic~=1.10.4
-vnstock @ git+https://github.com/thinh-vu/vnstock.git@beta
+vnstock @ git+https://github.com/thinh-vu/vnstock.git@main
 requests==2.25.1
 flask==2.3.1
 pandas==2.0.2
