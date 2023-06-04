@@ -2,6 +2,8 @@
 # from flask import request
 from pandas import *
 from json import *
+import pandas as pd
+from pandas import json_normalize
 from vnstock import *
 from fastapi import FastAPI
 from src.dtos.ISayHelloDto import ISayHelloDto
@@ -15,7 +17,7 @@ async def root():
     # print(response)
     # return response
     df = get_index_series(index_code='VNINDEX', time_range='OneYear')
-    return df
+    return json_normalize(df)
 
 
 
