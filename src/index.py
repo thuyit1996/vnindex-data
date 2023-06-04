@@ -1,6 +1,7 @@
 # from requests
 # from flask import request
 import requests
+from vnstock import *
 from fastapi import FastAPI
 from src.dtos.ISayHelloDto import ISayHelloDto
 
