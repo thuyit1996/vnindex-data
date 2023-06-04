@@ -24,7 +24,9 @@ headers = {
     'Sec-Fetch-Mode': 'cors',
     'Sec-Fetch-Dest': 'empty',
     'Referer': 'https://iboard.ssi.com.vn/',
-    'Accept-Language': 'en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7'
+    'Accept-Language': 'en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7',
+    'x-refresh-token': "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjIzNzA5NSIsInV1aWQiOiI3YTM2YWZkZi1iNWZmLTQ3YTgtYWNlYy1hZjlmNzVlM2I0ODMiLCJjaGFubmVsIjoid2ViIiwiaWF0IjoxNjg1ODU4NDY4LCJleHAiOjE2ODU4ODcyNjh9.zHTccOa1Pak18QBQywITF7guoE-hd_HVDMJY287l388",
+    "x-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjIzNzA5NSIsInV1aWQiOiIwNDBkNmE5Yy03Mjc3LTQwN2EtOTkyOC1kZmIzYzM2MzA2NjYiLCJjaGFubmVsIjoid2ViIiwiaWF0IjoxNjg1ODU4NDY4LCJleHAiOjE2ODU4ODcyNjh9.Wx3sRVqAs_3fjFLJ6KqOuBAz2zrUmRXMS5aZT5sgzME"
 }
 
 
