@@ -17,7 +17,7 @@ async def root():
     # print(response)
     # return response
     df = get_index_series(index_code='VNINDEX', time_range='OneYear')
-    return json_normalize(df)
+    print(df)
 
 
 
