@@ -4,5 +4,5 @@ pytest-asyncio==0.20.3
 uvicorn==0.20.0
 pydantic~=1.10.4
 vnstock==0.1.4
-request~=2.25.1
+requests==2.25.1
 flask==2.3.1
