@@ -6,3 +6,4 @@ pydantic~=1.10.4
 vnstock==0.1.4
 requests==2.25.1
 flask==2.3.1
+pandas==2.0.2
