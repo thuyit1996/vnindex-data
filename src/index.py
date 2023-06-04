@@ -31,7 +31,8 @@ headers = {
 async def root():
     url = "https://fiin-market.ssi.com.vn/MarketInDepth/GetIndexSeries?language=vi&ComGroupCode=VNINDEX&TimeRange=OneYear&id=1"
     response = requests.get(url, headers=headers)
-    return response;
+    print(response)
+    return response
 
 
 @app.get("/hello/{name}")
